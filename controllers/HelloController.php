@@ -7,8 +7,9 @@
 
    public function actionIndex(){
      $weiqth = 3;
+      $weiqth1 = 'abu';
     return  $this->render('index',[
-         'firstname' => 'abu',
+         'firstname' => $weiqth1,
       'firstname1' => '11',
       'weiqth' => $weiqth
    ]
