@@ -6,7 +6,17 @@
  {
 
    public function actionIndex(){
-    return  $this->render('index');
+     $weiqth = 3;
+    return  $this->render('index',[
+         'firstname' => 'abu',
+      'firstname1' => '11',
+      'weiqth' => $weiqth
+   ]
+);
+
+
+
+
 
    }
    public function actionProfile(){
